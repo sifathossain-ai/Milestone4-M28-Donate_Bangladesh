@@ -10,7 +10,7 @@
 </head>
 
 <body class="md:container mx-auto mb-20">
-    <header class="">
+    <header class="sticky top-0 z-50 bg-white py-1">
         <!-- Nav Section Start -->
         <div class="navbar bg-base-100 py-8">
             <div class="navbar-start">
@@ -32,7 +32,7 @@
         <!-- Nav Section End -->
 
         <!-- Banner Section Start -->
-        <div class="flex justify-center items-center gap-3 mt-10">
+        <div class="flex justify-center items-center gap-3 mb-10">
             <button id="btn-donation" class="btn font-bold bg-[#FFFF00]">Donation</button>
             <button id="btn-history" class="btn font-bold bg-white">History</button>
         </div>
@@ -59,7 +59,8 @@
                             contribution, big or small, makes difference. Please join us in supporting the relief
                             efforts and making a positive impact on the lives of those in need.
                         </p>
-                        <input class="mb-4 w-full h-10 rounded-sm pl-3" type="text" name="" id="input-value-1" placeholder="Write Donation Amount">
+                        <input class="mb-4 w-full h-10 rounded-sm pl-3" type="text" name="" id="input-value-1"
+                            placeholder="Write Donation Amount">
                         <button id="btn-donation-1" class="btn bg-green-500 font-bold w-full">Get Started</button>
                     </div>
                 </div>
@@ -83,7 +84,8 @@
                             contribution, big or small, makes difference. Please join us in supporting the relief
                             efforts and making a positive impact on the lives of those in need.
                         </p>
-                        <input class="mb-4 w-full h-10 rounded-sm pl-3" type="text" name="" id="input-value-2" placeholder="Write Donation Amount">
+                        <input class="mb-4 w-full h-10 rounded-sm pl-3" type="text" name="" id="input-value-2"
+                            placeholder="Write Donation Amount">
                         <button id="btn-donation-2" class="btn bg-green-500 font-bold w-full">Get Started</button>
                     </div>
                 </div>
@@ -107,22 +109,24 @@
                             contribution, big or small, makes difference. Please join us in supporting the relief
                             efforts and making a positive impact on the lives of those in need.
                         </p>
-                        <input class="mb-4 w-full h-10 rounded-sm pl-3" type="text" name="" id="input-value-3" placeholder="Write Donation Amount">
+                        <input class="mb-4 w-full h-10 rounded-sm pl-3" type="text" name="" id="input-value-3"
+                            placeholder="Write Donation Amount">
                         <button id="btn-donation-3" class="btn bg-green-500 font-bold w-full">Get Started</button>
                     </div>
                 </div>
             </div>
         </Section>
         <!-- Div Donation Container End -->
-         <!-- History Container Start -->
-          <section id="history" class="hidden ml-2">
+        <!-- History Container Start -->
+        <section id="history" class="hidden ml-2">
             <h1>This is History Section</h1>
-          </section>
-         <!-- History Container End -->
+        </section>
+        <!-- History Container End -->
     </main>
     <script src="js/index.js"></script>
     <script src="js/toggle.js"></script>
     <script src="js/share.js"></script>
+    <script src="js/header-sticky.js"></script>
 </body>
 
 </html>
